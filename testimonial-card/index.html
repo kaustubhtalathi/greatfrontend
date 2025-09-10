@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- [Delete this comment] This file is the main file for the challenge. For the most part, you should be editing this file. -->
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>GreatFrontEnd Projects</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+
+        <!-- Tailwind CDN allows you to use Tailwind classes immediately in your HTML without any installation steps. 
+      If you're not using Tailwind, you may delete the <script> -->
+        <!-- Get started on Tailwind: https://tailwindcss.com/docs/installation/play-cdn -->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <link rel="icon" href="img/favicon.ico" sizes="any" />
+        <style>
+            /* You may write styles inside this <style> tag or within `css/style.css`. */
+            * {
+                box-sizing: border-box; /* not completely needed, yet useful */
+            }
+
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+            }
+
+            body {
+                display: flex; /* or css grid for more intricate layouts */
+                flex-direction: column;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Add your site or application content here -->
+        <div
+            class="main"
+            style="
+                background-image: linear-gradient(to top left, #d2d6db, #fff);
+                height: 100%;
+            "
+        >
+            <div
+                class="card"
+                style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100vh;
+                "
+            >
+                <div
+                    class="cardContent"
+                    style="
+                        width: 340px;
+                        height: 233px;
+                        gap: 16px;
+                        display: flex;
+                        flex-direction: column;
+                        background-color: white;
+                        padding: 24px;
+                        border-radius: 8px;
+                    "
+                >
+                    <div class="imgNameHandle" style="display: flex; gap: 16px">
+                        <div>
+                            <img
+                                src="img/profile-thumbnail.png"
+                                width="48"
+                                height="48"
+                            />
+                        </div>
+                        <div class="aboutMe">
+                            <p>Sarah Dole</p>
+                            <p>@sarahdole</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p style="font-size: 1.75 rem">
+                            I've been searching for high-quality abstract images
+                            for my design projects, and I'm thrilled to have
+                            found this platform. The variety and depth of
+                            creativity are astounding!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sarah Dole
+      @sarahdole
+      I've been searching for high-quality abstract images for my design projects, 
+      and I'm thrilled to have found this platform. The variety and depth of creativity are astounding! 
+    -->
+        <script src="js/index.js"></script>
+    </body>
+</html>
