@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- [Delete this comment] This file is the main file for the challenge. For the most part, you should be editing this file. -->
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>GreatFrontEnd Projects</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+
+        <!-- Tailwind CDN allows you to use Tailwind classes immediately in your HTML without any installation steps. 
+      If you're not using Tailwind, you may delete the <script> -->
+        <!-- Get started on Tailwind: https://tailwindcss.com/docs/installation/play-cdn -->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <link rel="icon" href="img/favicon.ico" sizes="any" />
+        <style>
+            /* You may write styles inside this <style> tag or within `css/style.css`. */
+
+            body {
+                background-image: linear-gradient(to bottom right, #fff, #999);
+            }
+
+            .button {
+                padding: 10px 24px;
+                background-color: #fff;
+            }
+            .button.primary {
+                background-color: darkslateblue;
+                color: #fff;
+            }
+            .nav {
+                margin: 0 0 0 200px;
+                padding: 0;
+            }
+
+            .nav li {
+                width: 75px;
+                color: #525252;
+            }
+
+            .main {
+                display: flex;
+                justify-content: center;
+                padding: 10px 200px;
+                flex-direction: column;
+                background-color: #fff;
+            }
+
+            .footer {
+                position: sticky;
+                bottom: 0;
+                background-color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Add your site or application content here -->
+        <div
+            style="
+                display: flex;
+                justify-content: space-around;
+                padding: 20px;
+                position: sticky;
+                top: 0px;
+                background-color: white;
+            "
+        >
+            <div style="display: flex; justify-content: space-between">
+                <img src="./img/abstractly.svg" />
+                <div>
+                    <ul
+                        class="nav"
+                        style="
+                            display: flex;
+                            gap: 20px;
+                            align-items: center;
+                            height: 100%;
+                        "
+                    >
+                        <li>Home</li>
+                        <li>Features</li>
+                        <li>Pricing</li>
+                        <li>About us</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+            <div style="display: flex; gap: 10px">
+                <button class="button">Learn more</button>
+                <button class="button primary">See pricing</button>
+            </div>
+        </div>
+        <div class="main">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                pellentesque pulvinar dolor vel vulputate. Curabitur leo purus,
+                condimentum at dui et, vulputate condimentum mauris. Vestibulum
+                ante ipsum primis in faucibus orci luctus et ultrices posuere
+                cubilia curae; Aliquam id lorem libero. Donec pulvinar nisl sit
+                amet nisl pellentesque eleifend. Etiam luctus, mi ac dignissim
+                blandit, nulla massa lacinia nulla, sed scelerisque tortor sem
+                vitae ante. Aliquam pulvinar viverra ex. Suspendisse volutpat
+                mollis arcu eu efficitur. Vivamus non ornare turpis. Class
+                aptent taciti sociosqu ad litora torquent per conubia nostra,
+                per inceptos himenaeos. Cras tempus lorem nec sapien efficitur
+                hendrerit eget vitae velit. Etiam id turpis molestie lorem
+                luctus sagittis. Mauris vestibulum finibus enim ut efficitur.
+                Nunc tristique porta odio, in ultricies sem. Donec eget
+                sollicitudin nulla. Suspendisse potenti. Nunc id pharetra quam,
+                ut blandit libero. Nam bibendum velit urna, vel dapibus tortor
+                eleifend eget. Fusce eu lacus sit amet ipsum vulputate aliquet a
+                et nibh. Sed lacinia elit eu augue pellentesque, ac rhoncus
+                lorem convallis. Donec lectus urna, ultricies sed ultricies
+                vitae, interdum efficitur elit. Etiam eget nulla quam. Nunc
+                massa ex, accumsan id aliquet ac, interdum ut tellus. In
+                interdum finibus fringilla. Donec pharetra faucibus condimentum.
+                Etiam vestibulum ex lorem, vel cursus orci ornare sed. Aliquam
+                sollicitudin tortor ut dui faucibus, quis finibus mauris mattis.
+                Etiam leo turpis, semper ut nulla in, vestibulum imperdiet nunc.
+                Maecenas laoreet convallis justo, id ultrices turpis. Fusce
+                consequat mauris sed elementum volutpat. Vestibulum risus felis,
+                suscipit eget nunc sit amet, lacinia feugiat sapien. Aenean
+                blandit, neque a cursus lobortis, magna sapien varius leo, ut
+                tincidunt felis ligula non dolor. Proin enim lorem, tincidunt a
+                finibus sodales, blandit ac ligula. Praesent vehicula, sem et
+                consectetur dapibus, ipsum velit aliquam mi, eu pellentesque
+                orci nisi quis ante. Proin rhoncus eros eget blandit aliquam.
+                Maecenas feugiat ut mi a porttitor. Sed eu semper est. Cras
+                vitae velit quis felis ornare aliquet et eget eros. Donec purus
+                lorem, dictum at dui ac, pulvinar tincidunt nunc. Pellentesque
+                ornare tincidunt odio id iaculis. Nam consequat, tellus et
+                egestas feugiat, velit enim tempor orci, quis dignissim leo
+                justo id quam. Vestibulum eu felis eros. Class aptent taciti
+                sociosqu ad litora torquent per conubia nostra, per inceptos
+                himenaeos. In semper, justo eget ultricies placerat, eros mi
+                mattis massa, id laoreet mauris mi vitae dolor. Vestibulum
+                varius turpis elit, vitae euismod massa pellentesque non. Fusce
+                vitae eros sed lectus posuere blandit. Suspendisse pellentesque
+                fermentum mauris, quis ultricies nunc congue at. Donec id nibh
+                sed est egestas aliquet tristique sit amet neque. Suspendisse
+                tristique ut augue sit amet scelerisque. Morbi euismod libero in
+                placerat ornare. Nullam mollis efficitur sollicitudin. Nunc sit
+                amet nulla malesuada, faucibus dui a, aliquet eros. Etiam ac
+                facilisis arcu. Pellentesque habitant morbi tristique senectus
+                et netus et malesuada fames ac turpis egestas. Interdum et
+                malesuada fames ac ante ipsum primis in faucibus. Morbi non
+                congue lorem, nec tempor augue. Praesent arcu lectus, congue et
+                arcu non, vehicula lacinia quam.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                pellentesque pulvinar dolor vel vulputate. Curabitur leo purus,
+                condimentum at dui et, vulputate condimentum mauris. Vestibulum
+                ante ipsum primis in faucibus orci luctus et ultrices posuere
+                cubilia curae; Aliquam id lorem libero. Donec pulvinar nisl sit
+                amet nisl pellentesque eleifend. Etiam luctus, mi ac dignissim
+                blandit, nulla massa lacinia nulla, sed scelerisque tortor sem
+                vitae ante. Aliquam pulvinar viverra ex. Suspendisse volutpat
+                mollis arcu eu efficitur. Vivamus non ornare turpis. Class
+                aptent taciti sociosqu ad litora torquent per conubia nostra,
+                per inceptos himenaeos. Cras tempus lorem nec sapien efficitur
+                hendrerit eget vitae velit. Etiam id turpis molestie lorem
+                luctus sagittis. Mauris vestibulum finibus enim ut efficitur.
+                Nunc tristique porta odio, in ultricies sem. Donec eget
+                sollicitudin nulla. Suspendisse potenti. Nunc id pharetra quam,
+                ut blandit libero. Nam bibendum velit urna, vel dapibus tortor
+                eleifend eget. Fusce eu lacus sit amet ipsum vulputate aliquet a
+                et nibh. Sed lacinia elit eu augue pellentesque, ac rhoncus
+                lorem convallis. Donec lectus urna, ultricies sed ultricies
+                vitae, interdum efficitur elit. Etiam eget nulla quam. Nunc
+                massa ex, accumsan id aliquet ac, interdum ut tellus. In
+                interdum finibus fringilla. Donec pharetra faucibus condimentum.
+                Etiam vestibulum ex lorem, vel cursus orci ornare sed. Aliquam
+                sollicitudin tortor ut dui faucibus, quis finibus mauris mattis.
+                Etiam leo turpis, semper ut nulla in, vestibulum imperdiet nunc.
+                Maecenas laoreet convallis justo, id ultrices turpis. Fusce
+                consequat mauris sed elementum volutpat. Vestibulum risus felis,
+                suscipit eget nunc sit amet, lacinia feugiat sapien. Aenean
+                blandit, neque a cursus lobortis, magna sapien varius leo, ut
+                tincidunt felis ligula non dolor. Proin enim lorem, tincidunt a
+                finibus sodales, blandit ac ligula. Praesent vehicula, sem et
+                consectetur dapibus, ipsum velit aliquam mi, eu pellentesque
+                orci nisi quis ante. Proin rhoncus eros eget blandit aliquam.
+                Maecenas feugiat ut mi a porttitor. Sed eu semper est. Cras
+                vitae velit quis felis ornare aliquet et eget eros. Donec purus
+                lorem, dictum at dui ac, pulvinar tincidunt nunc. Pellentesque
+                ornare tincidunt odio id iaculis. Nam consequat, tellus et
+                egestas feugiat, velit enim tempor orci, quis dignissim leo
+                justo id quam. Vestibulum eu felis eros. Class aptent taciti
+                sociosqu ad litora torquent per conubia nostra, per inceptos
+                himenaeos. In semper, justo eget ultricies placerat, eros mi
+                mattis massa, id laoreet mauris mi vitae dolor. Vestibulum
+                varius turpis elit, vitae euismod massa pellentesque non. Fusce
+                vitae eros sed lectus posuere blandit. Suspendisse pellentesque
+                fermentum mauris, quis ultricies nunc congue at. Donec id nibh
+                sed est egestas aliquet tristique sit amet neque. Suspendisse
+                tristique ut augue sit amet scelerisque. Morbi euismod libero in
+                placerat ornare. Nullam mollis efficitur sollicitudin. Nunc sit
+                amet nulla malesuada, faucibus dui a, aliquet eros. Etiam ac
+                facilisis arcu. Pellentesque habitant morbi tristique senectus
+                et netus et malesuada fames ac turpis egestas. Interdum et
+                malesuada fames ac ante ipsum primis in faucibus. Morbi non
+                congue lorem, nec tempor augue. Praesent arcu lectus, congue et
+                arcu non, vehicula lacinia quam.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                pellentesque pulvinar dolor vel vulputate. Curabitur leo purus,
+                condimentum at dui et, vulputate condimentum mauris. Vestibulum
+                ante ipsum primis in faucibus orci luctus et ultrices posuere
+                cubilia curae; Aliquam id lorem libero. Donec pulvinar nisl sit
+                amet nisl pellentesque eleifend. Etiam luctus, mi ac dignissim
+                blandit, nulla massa lacinia nulla, sed scelerisque tortor sem
+                vitae ante. Aliquam pulvinar viverra ex. Suspendisse volutpat
+                mollis arcu eu efficitur. Vivamus non ornare turpis. Class
+                aptent taciti sociosqu ad litora torquent per conubia nostra,
+                per inceptos himenaeos. Cras tempus lorem nec sapien efficitur
+                hendrerit eget vitae velit. Etiam id turpis molestie lorem
+                luctus sagittis. Mauris vestibulum finibus enim ut efficitur.
+                Nunc tristique porta odio, in ultricies sem. Donec eget
+                sollicitudin nulla. Suspendisse potenti. Nunc id pharetra quam,
+                ut blandit libero. Nam bibendum velit urna, vel dapibus tortor
+                eleifend eget. Fusce eu lacus sit amet ipsum vulputate aliquet a
+                et nibh. Sed lacinia elit eu augue pellentesque, ac rhoncus
+                lorem convallis. Donec lectus urna, ultricies sed ultricies
+                vitae, interdum efficitur elit. Etiam eget nulla quam. Nunc
+                massa ex, accumsan id aliquet ac, interdum ut tellus. In
+                interdum finibus fringilla. Donec pharetra faucibus condimentum.
+                Etiam vestibulum ex lorem, vel cursus orci ornare sed. Aliquam
+                sollicitudin tortor ut dui faucibus, quis finibus mauris mattis.
+                Etiam leo turpis, semper ut nulla in, vestibulum imperdiet nunc.
+                Maecenas laoreet convallis justo, id ultrices turpis. Fusce
+                consequat mauris sed elementum volutpat. Vestibulum risus felis,
+                suscipit eget nunc sit amet, lacinia feugiat sapien. Aenean
+                blandit, neque a cursus lobortis, magna sapien varius leo, ut
+                tincidunt felis ligula non dolor. Proin enim lorem, tincidunt a
+                finibus sodales, blandit ac ligula. Praesent vehicula, sem et
+                consectetur dapibus, ipsum velit aliquam mi, eu pellentesque
+                orci nisi quis ante. Proin rhoncus eros eget blandit aliquam.
+                Maecenas feugiat ut mi a porttitor. Sed eu semper est. Cras
+                vitae velit quis felis ornare aliquet et eget eros. Donec purus
+                lorem, dictum at dui ac, pulvinar tincidunt nunc. Pellentesque
+                ornare tincidunt odio id iaculis. Nam consequat, tellus et
+                egestas feugiat, velit enim tempor orci, quis dignissim leo
+                justo id quam. Vestibulum eu felis eros. Class aptent taciti
+                sociosqu ad litora torquent per conubia nostra, per inceptos
+                himenaeos. In semper, justo eget ultricies placerat, eros mi
+                mattis massa, id laoreet mauris mi vitae dolor. Vestibulum
+                varius turpis elit, vitae euismod massa pellentesque non. Fusce
+                vitae eros sed lectus posuere blandit. Suspendisse pellentesque
+                fermentum mauris, quis ultricies nunc congue at. Donec id nibh
+                sed est egestas aliquet tristique sit amet neque. Suspendisse
+                tristique ut augue sit amet scelerisque. Morbi euismod libero in
+                placerat ornare. Nullam mollis efficitur sollicitudin. Nunc sit
+                amet nulla malesuada, faucibus dui a, aliquet eros. Etiam ac
+                facilisis arcu. Pellentesque habitant morbi tristique senectus
+                et netus et malesuada fames ac turpis egestas. Interdum et
+                malesuada fames ac ante ipsum primis in faucibus. Morbi non
+                congue lorem, nec tempor augue. Praesent arcu lectus, congue et
+                arcu non, vehicula lacinia quam.
+            </p>
+        </div>
+
+        <div class="footer">footer</div>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
